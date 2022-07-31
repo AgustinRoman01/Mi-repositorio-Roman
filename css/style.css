@@ -58,7 +58,7 @@ body {
   padding: 10px;
   text-align: center;
   border: solid 4px;
-  background-image: linear-gradient(rgb(18, 9, 9), white);
+  background-image: linear-gradient(to bottom, rgb(18, 9, 9), white);
 }
 
 img {
