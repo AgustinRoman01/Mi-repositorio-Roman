@@ -1,0 +1,18 @@
+footer {
+  color: rgb(47, 47, 95);
+  display: flex;
+  justify-content: center;
+
+  .card {
+    background-image: linear-gradient(white, rgb(57, 36, 36));
+    width: 100%;
+  }
+
+  .card-body {
+    background-color: map-get($colors, color-seven);
+    border: 1px solid rgb(82, 23, 23);
+    &:hover {
+      color: black;
+    }
+  }
+}

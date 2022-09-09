@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  font-size: 20px;
+  color: white;
+  /* background: center/cover no-repeat url(../imagenes/img9.jpg); */
+
+  .container-fluid {
+    height: auto;
+    width: auto;
+    transition: all 4s;
+    background-color: map-get($colors, color-seven);
+  }
+
+  .principal {
+    @include principalP(black);
+    width: 100%;
+    background-color: map-get($colors, color-seven);
+  }
+
+  h1 {
+    font-size: 50px;
+    font-style: italic;
+  }
+  p {
+    @include principalP(black);
+  }
+  .lead {
+    font-style: none;
+    font-size: 22px;
+  }
+
+  .parrafoIndex {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .parrafoDos {
+    color: black;
+    order: 3;
+  }
+}

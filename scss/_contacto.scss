@@ -1,0 +1,12 @@
+main {
+  .lead {
+    color: White;
+  }
+  .tel {
+    @extend .lead;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+  }
+}

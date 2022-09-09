@@ -1,0 +1,22 @@
+.container-fluid {
+  .tituloSector display-2 {
+    color: white;
+    margin-top: 2rem;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    transform: translate(600px, -10px);
+    width: auto;
+    height: auto;
+  }
+  .table table-dark table-striped {
+    margin-top: 2rem;
+    max-width: 70%;
+    border: 4px double white;
+    transform: translate(150px, -15px);
+  }
+  .container2 {
+    display: flex;
+  }
+}
