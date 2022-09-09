@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-size: 20px;
+  color: white;
+  /* background: center/cover no-repeat url(../imagenes/img9.jpg); */
+}
+main .container-fluid {
+  height: auto;
+  width: auto;
+  transition: all 4s;
+  background-color: #67706a;
+}
+main .principal {
+  padding: 1.5rem;
+  color: black;
+  width: 100%;
+  background-color: #67706a;
+}
+main h1 {
+  font-size: 50px;
+  font-style: italic;
+}
+main p {
+  padding: 1.5rem;
+  color: black;
+}
+main .lead, main .tel {
+  font-style: none;
+  font-size: 22px;
+}
+main .parrafoIndex {
+  display: flex;
+  justify-content: flex-start;
+}
+main .parrafoDos {
+  color: black;
+  order: 3;
+}
+
+footer {
+  color: rgb(47, 47, 95);
+  display: flex;
+  justify-content: center;
+}
+footer .card {
+  background-image: linear-gradient(white, rgb(57, 36, 36));
+  width: 100%;
+}
+footer .card-body {
+  background-color: #67706a;
+  border: 1px solid rgb(82, 23, 23);
+}
+footer .card-body:hover {
+  color: black;
+}
+
+main .lead, main .tel {
+  color: White;
+}
+main .tel {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 20px;
+}
+
+.container-fluid .tituloSector display-2 {
+  color: white;
+  margin-top: 2rem;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  transform: translate(600px, -10px);
+  width: auto;
+  height: auto;
+}
+.container-fluid .table table-dark table-striped {
+  margin-top: 2rem;
+  max-width: 70%;
+  border: 4px double white;
+  transform: translate(150px, -15px);
+}
+.container-fluid .container2 {
+  display: flex;
+}
+
+main .imagenPersonas {
+  margin-left: 30%;
+  margin-top: 0.5rem;
+}
+main .nuestraPropuesta {
+  font-size: 1.25rem;
+  text-align: center;
+}
+main .card-title {
+  color: black;
+  font-size: 25px;
+}
+main .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .card {
+  display: flex;
+  margin: 6rem;
+  overflow: hidden;
+  margin-right: 30px;
+}
+main .card-text {
+  color: aliceblue;
+}
+
+/*# sourceMappingURL=style.css.map */
